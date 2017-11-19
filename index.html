@@ -8,9 +8,7 @@
 </head>
 
 <body class="body">
-
-	<div class="container mt-5 text-center" id="main">
-
+	<div class="container mt-5 text-center" id="main"
 		<form id="newProfile" class="container text-center form-group">
 			<h1>New Profile</h1>
 			<div class="my-2">
@@ -20,9 +18,9 @@
 
 			<div class="my-2">
 				Gender:  
-				<input type="radio" name="gender" id="male" class="ml-2"> Male
-				<input type="radio" name="gender" id="female" class="ml-2"> Female
-				<input type="radio" name="gender" id="other" class="ml-2"> Other
+				<input type="radio" name="gender" value="male" class="ml-2 user-gender"> Male
+				<input type="radio" name="gender" value="female" class="ml-2 user-gender"> Female
+				<input type="radio" name="gender" value="other" class="ml-2 user-gender"> Other
 			</div>
 
 			<div class="my-2">
@@ -57,9 +55,18 @@
 		</form>
 
 		<button class="btn btn-info my-2" id="subBtn" onclick="submitForm()">Submit</button>
-
-
 	</div><!--End main-->
+
+	<div id="newUser">
+		<h3 id="newUserName"></h3>
+		<h4 id="newUserGender"></h4>
+		<h4 id="newUserEmail"></h4>
+		<h4 id="newUserPhone"></h4>
+		<h4 id="newUserColor"></h4>
+		<h4 id="newUserBirth"></h4>
+	</div><!--End newUser -->
+
+
     <script type="text/javascript" src="js/main.js"></script>
 </body>
 
