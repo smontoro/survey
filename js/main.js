@@ -41,7 +41,25 @@ function submitForm() {
 	/*
 	===COLOR===
 	*/
-	var color
+	var color = document.getElementById("color").value
+	var newUserColor = document.getElementById("newUserColor")
+		newUserColor.innerHTML = "Favorite Color: " + color
+
+	/*
+	===CONTINENT===
+	*/
+	var continent = document.getElementsByClassName("continent")
+	var userContinent
+
+	for (i = 0; i < continent.length; i++) {
+		if (continent[i].checked) {
+			userContinent = continent[i].value
+		}
+	}
+
+	var newUserContinent = document.getElementById("newUserContinent")
+		newUserContinent.innerHTML = "Birth Continent: " + userContinent
+
 
 
 // hide new profile form
