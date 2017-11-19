@@ -1,0 +1,15 @@
+#newProfile {
+	width: 600px;
+}
+
+input {
+	padding: 5px 0 5px 10px;
+}
+
+#first, #last {
+	width: 200px;
+}
+
+#email, #phone, #color, #subBtn {
+	width: 400px;
+}

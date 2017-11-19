@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head> <title>Template</title>
+   
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+</head>
+
+<body class="body">
+
+	<div class="container mt-5 text-center" id="main">
+
+		<form id="newProfile" class="container text-center form-group">
+			<h1>New Profile</h1>
+			<div class="my-2">
+				<input type="text" placeholder="First Name" id="first">
+				<input type="text" placeholder="Last Name" id="last">
+			</div>
+
+			<div class="my-2">
+				Gender:  
+				<input type="radio" name="gender" id="male" class="ml-2"> Male
+				<input type="radio" name="gender" id="female" class="ml-2"> Female
+				<input type="radio" name="gender" id="other" class="ml-2"> Other
+			</div>
+
+			<div class="my-2">
+				<input type="text" name="email" placeholder="Email Address" id="email">
+			</div>
+
+			<div class="my-2">
+				<input type="text" name="phone" placeholder="Phone Number" id="phone">
+			</div>
+
+		
+				<select class="form-control mx-auto" id="color">
+					<option value class="userColor">Select your favorite color</option>	
+					<option value="Red" class="userColor">Red</option>
+					<option value="Green" class="userColor">Green</option>
+					<option value="Blue" class="userColor">Blue</option>
+				</select>
+			
+
+			<div class="my-2">
+				<span>Continent of birth:</span>
+				<br>
+				<input type="radio" name="Africa"> Africa
+				<input type="radio" name="Asia" class="ml-2"> Asia
+				<input type="radio" name="Australia" class="ml-2"> Australia
+				<br>
+				<input type="radio" name="Europe" class="ml-2"> Europe
+				<input type="radio" name="North America" class="ml-2"> North America
+				<input type="radio" name="South America" class="ml-2"> South America
+			</div>
+
+		</form>
+
+		<button class="btn btn-info my-2" id="subBtn" onclick="submitForm()">Submit</button>
+
+
+	</div><!--End main-->
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
