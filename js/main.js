@@ -63,12 +63,9 @@ function submitForm() {
 		newUserContinent.innerHTML = "Birth Continent: " + userContinent
 
 
-
 // hide new profile form
 	document.getElementById('main').style.display = "none";
 	// display updated profile data
 	document.getElementById('newUser').style.display = "block";
-	
-
 
 };
