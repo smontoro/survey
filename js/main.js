@@ -3,6 +3,8 @@ function submitForm() {
 	var title = document.getElementById("newUserTitle")
 		title.innerHTML = "New User Profile"
 
+
+
 	/*
 	===NAME===
 	*/
@@ -33,10 +35,8 @@ function submitForm() {
 	var regEx = /^[a-z0-9._%-]+@+[a-z0-9.-]+\.[a-z]{2,5}$/
 	var emailTest = regEx.test(email)
 
-
 		if (emailTest === false){
-		alert("Please enter a complete email address")
-		return
+			alert("Please enter a complete email address")
 		}  
 
 	var newUserEmail = document.getElementById("newUserEmail")	
