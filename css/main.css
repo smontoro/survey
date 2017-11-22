@@ -2,7 +2,7 @@
 	width: 600px;
 }
 
-input {
+input, textarea {
 	padding: 5px 0 5px 10px;
 }
 
@@ -10,6 +10,6 @@ input {
 	width: 200px;
 }
 
-#email, #phone, #color, #subBtn {
+#email, #phone, #color, #subBtn, #bio{
 	width: 400px;
 }
