@@ -1,10 +1,8 @@
 
 function submitForm() {
+
 	var title = document.getElementById("newUserTitle")
 		title.innerHTML = "New User Profile"
-
-
-
 	/*
 	===NAME===
 	*/
