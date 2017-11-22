@@ -30,16 +30,17 @@ function submitForm() {
 	===EMAIL===
 	*/
 	var email = document.getElementById("email").value
-	var regEx = /^[a-z0-9._%-]+@[a-z0-9.-]+\.[a-z](2,5)$/
-	var testEmail = regEx.test(email)
+	var regEx = /^[a-z0-9._%-]+@+[a-z0-9.-]+\.[a-z]{2,5}$/
+	var emailTest = regEx.test(email)
 
-	if (testEmail != true) {
+
+		if (emailTest === false){
 		alert("Please enter a complete email address")
-	} 
-	
+		return
+		}  
 
-	//var newUserEmail = document.getElementById("newUserEmail")	
-		//newUserEmail.innerHTML = "Email: "+ email
+	var newUserEmail = document.getElementById("newUserEmail")	
+		newUserEmail.innerHTML = "Email: "+ email
 
 	/*
 	===PHONE===
@@ -76,4 +77,6 @@ function submitForm() {
 	// display updated profile data
 	document.getElementById('newUser').style.display = "block";
 
+
 };
+
