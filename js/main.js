@@ -30,8 +30,16 @@ function submitForm() {
 	===EMAIL===
 	*/
 	var email = document.getElementById("email").value
-	var newUserEmail = document.getElementById("newUserEmail")	
-		newUserEmail.innerHTML = "Email: "+ email
+	var regEx = /^[a-z0-9._%-]+@[a-z0-9.-]+\.[a-z](2,5)$/
+	var testEmail = regEx.test(email)
+
+	if (testEmail != true) {
+		alert("Please enter a complete email address")
+	} 
+	
+
+	//var newUserEmail = document.getElementById("newUserEmail")	
+		//newUserEmail.innerHTML = "Email: "+ email
 
 	/*
 	===PHONE===
