@@ -5,6 +5,9 @@
 	color: white;
 }
 
+#main h1 {
+	color: green;
+}
 
 #newProfile {
 	width: 600px;
