@@ -9,6 +9,10 @@
 	color: tomato;
 }
 
+#main p {
+	width: 50%;
+}
+
 #newProfile {
 	width: 600px;
 }
