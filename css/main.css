@@ -6,7 +6,7 @@
 }
 
 #main h1 {
-	color: tomato;
+	color: #435A62;
 }
 
 #newProfile {
@@ -27,4 +27,5 @@ input, textarea {
 
 #subBtn {
 	background-color: #435A62;
+	border: none;
 }
