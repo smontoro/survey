@@ -1,16 +1,12 @@
 
 #main {
 	border: solid black 2px;
-	background-color: #5C337F;
+	background-color: #CFA474;
 	color: white;
 }
 
 #main h1 {
 	color: tomato;
-}
-
-#main p {
-	width: 50%;
 }
 
 #newProfile {
@@ -27,4 +23,8 @@ input, textarea {
 
 #email, #phone, #color, #subBtn, #bio{
 	width: 400px;
+}
+
+#subBtn {
+	background-color: #435A62;
 }
