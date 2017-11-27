@@ -22,11 +22,7 @@ input, textarea {
 	padding: 5px 0 5px 10px;
 }
 
-#first, #last {
-	width: 200px;
-}
-
-#email, #phone, #color, #subBtn, #bio, #mainP, #business {
+#email, #phone, #color, #subBtn, #bio, #mainP, #business, #principal, #title {
 	width: 400px;
 }
 
