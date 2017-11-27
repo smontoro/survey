@@ -13,10 +13,10 @@ function submitForm() {
 	/*
 	===NAME===
 	*/
-	var first = document.getElementById("first").value
-	var last = document.getElementById("last").value
-	var newUserName = document.getElementById("newUserName")
-		newUserName.innerHTML = "Welcome, " + first + " " + last
+	var principal = document.getElementById("principal").value
+	var title = document.getElementById("title").value
+	var newPrincipal = document.getElementById("newPrincipal")
+		newPrincipal.innerHTML = "Welcome, " + principal + ", " + title
 
 	/*	
 	===GENDER===
