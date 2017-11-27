@@ -3,6 +3,13 @@ function submitForm() {
 
 	var title = document.getElementById("newUserTitle")
 		title.innerHTML = "New User Profile"
+
+	/*
+	===BUSINESS NAME===
+	*/
+	var business = document.getElementById("business").value
+		newBusinessName.innerHTML = business
+
 	/*
 	===NAME===
 	*/
