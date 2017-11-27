@@ -1,7 +1,7 @@
 
 function submitForm() {
 
-	var title = document.getElementById("newUserTitle")
+	var title = document.getElementById("newTitle")
 		title.innerHTML = "New User Profile"
 
 	/*
