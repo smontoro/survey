@@ -4,14 +4,15 @@
 
 #main {
 	border: solid black 2px;
-	background-color: #CFA474;
+	background-color: #435A62;
 	color: white;
 	font-family: 'Paletino';
 }
 
 #main h1 {
-	color: #435A62;
+	color: #CFA474;
 }
+
 
 #newProfile {
 	width: 600px;
@@ -25,11 +26,11 @@ input, textarea {
 	width: 200px;
 }
 
-#email, #phone, #color, #subBtn, #bio{
+#email, #phone, #color, #subBtn, #bio, #mainP {
 	width: 400px;
 }
 
 #subBtn {
-	background-color: #435A62;
+	background-color: #CFA474;
 	border: none;
 }
