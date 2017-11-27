@@ -1,8 +1,12 @@
+.body {
+	background-color: #D9D5CB;
+}
 
 #main {
 	border: solid black 2px;
 	background-color: #CFA474;
 	color: white;
+	font-family: 'Paletino';
 }
 
 #main h1 {
